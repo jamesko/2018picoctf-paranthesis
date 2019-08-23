@@ -28,7 +28,7 @@ for(var i=1; i< terms.length; i++){
                 leftTerm = "(" + leftTerm + rightTerm.substr(1);
                 continue;
         } else if(leftDepth === rightDepth){
-                leftTerm = leftTerm + rightTerm
+                leftTerm += rightTerm
         }
 }
 
